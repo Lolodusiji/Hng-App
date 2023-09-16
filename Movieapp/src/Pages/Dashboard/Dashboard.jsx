@@ -3,7 +3,7 @@ import "./Dashboard.css";
 import Sidebar from "../LandingPage/Component/Sidebar";
 import Trailer from "/imgs/trailer.svg";
 import Star from "/imgs/Rating.svg";
-import Ticket from "/imgs/Two tickets.svg";
+import Ticket from "/imgs/Two Tickets.svg";
 import List from "/imgs/List.svg";
 import useFetch, { useID } from "../../hook/Usefetch";
 import { useParams } from "react-router-dom";
