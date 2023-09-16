@@ -77,11 +77,11 @@ const FeatureMovie = () => {
             <div className="flex-general2">
               <div className="flex-aside2">
                 <img src={IMD} alt="" />
-                <p id="rate">{movie.rating} / 100</p>
+                <p id="rate">{movie.vote_average} / 100</p>
               </div>
               <div className="flex-otherside2">
                 <img src={Fruit} alt="" />
-                <p id="percent">{movie.percent}%</p>
+                <p id="percent">{movie.vote_count}%</p>
               </div>
             </div>
             {/* <h3 id="spec">{movie.genres.join(", ")}</h3> */}
