@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useEffect, useState } from "react";
+// import React from 'react';
 import Herosection  from './Component/Herosection';
 import "./LandingPage.css";
 import  FeatureMovie  from './Component/FeatureMovie';
