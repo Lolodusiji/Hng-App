@@ -5,8 +5,10 @@ import Trailer from "/imgs/trailer.svg";
 import Star from "/imgs/Rating.svg";
 import Ticket from "/imgs/Two Tickets.svg";
 import List from "/imgs/List.svg";
+import Watch from "/imgs/watch.svg";
 import useFetch, { useID } from "../../hook/Usefetch";
 import { useParams } from "react-router-dom";
+// import { AiFillPlayCircle } from "react-icons/ai";
 
 const Dashboard = () => {
   const {id} = useParams () 
@@ -26,6 +28,12 @@ const Dashboard = () => {
           <Sidebar />
           <div className="trailer">
             <img id="trailer" src={`https://image.tmdb.org/t/p/original${banner?.poster_path}`} alt="" />
+
+            <div className="play">
+              <img src={Watch} alt="" id="play-img"/>
+            {/* <AiFillPlayCircle className="icon" /> */}
+            {/* <p>Watch Triller</p> */}
+            </div>
           </div>
           <div className="flex-details">
             <div className="left">
